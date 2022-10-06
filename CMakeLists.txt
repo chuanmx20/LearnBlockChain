@@ -14,11 +14,23 @@ message(STATUS "Boost_VERSION: ${Boost_VERSION}")
 include_directories(${Boost_INCLUDE_DIRS})
 link_directories(${Boost_LIBRARY_DIRS})
 
+
+find_package(leveldb COMPONENTS)
+if(NOT leveldb_FOUND)
+    message(FATAL_ERROR "Fatal error: levelDB required\n")
+endif()
+message(STATUS "leveldb_INCLUDE_DIRS: ${leveldb_INCLUDE_DIRS}")
+message(STATUS "leveldb_LIBRARIES: ${leveldb_LIBRARY_DIRS}")
+message(STATUS "level_VERSION: ${leveldb_VERSION}")
+# levelDB
+include_directories(${leveldb_INCLUDE_DIRS})
+link_directories(${leveldb_LIBRARY_DIRS})
+
 include_directories(Utils)
-add_definitions(-DTARGET_BIT=2)
+add_definitions(-DTARGET_BIT=8)
 
 include_directories(/usr/local/include)
 
 add_executable(LearnBlockChain main.cpp Block/Block.cpp Block/Block.h BlockChain/Blockchain.cpp BlockChain/Blockchain.h POW/ProofOfWork.cpp Utils/BigInt.cpp Utils/BigInt.h Utils/hex2bigint.cpp Utils/hex2bigint.h)
 
-target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES} libleveldb.a)

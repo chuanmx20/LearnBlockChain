@@ -6,13 +6,18 @@
 #define LEARNBLOCKCHAIN_BLOCKCHAIN_H
 
 #include <vector>
+#include <assert.h>
 
 #include "../Block/Block.h"
+#include "leveldb/db.h"
+#include "leveldb/write_batch.h"
 
 class Blockchain {
     std::vector<Block> blocks;
+    std::string DBFileName;
 public:
-    Blockchain();
+    Blockchain() = delete;
+    Blockchain(const std::string& dbFileName);
     std::vector<Block> GetBlocks();
     void AddBlock(const std::string& data);
     std::string GetEndHash();

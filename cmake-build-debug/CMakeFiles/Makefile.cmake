@@ -51,6 +51,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/lib/cmake/boost_serialization-1.80.0/libboost_serialization-variant-mt-static.cmake"
   "/usr/local/lib/cmake/boost_serialization-1.80.0/libboost_serialization-variant-shared.cmake"
   "/usr/local/lib/cmake/boost_serialization-1.80.0/libboost_serialization-variant-static.cmake"
+  "/usr/local/lib/cmake/leveldb/leveldbConfig.cmake"
+  "/usr/local/lib/cmake/leveldb/leveldbConfigVersion.cmake"
+  "/usr/local/lib/cmake/leveldb/leveldbTargets-release.cmake"
+  "/usr/local/lib/cmake/leveldb/leveldbTargets.cmake"
   )
 
 # The corresponding makefile is:

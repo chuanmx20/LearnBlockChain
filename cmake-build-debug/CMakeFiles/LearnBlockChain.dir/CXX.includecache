@@ -42,11 +42,21 @@ picosha2.h
 ../POW/ProofOfWork.h
 /Users/chuanmingxi/CLionProjects/LearnBlockChain/POW/ProofOfWork.h
 
+/Users/chuanmingxi/CLionProjects/LearnBlockChain/BlockChain/Blockchain.cpp
+Blockchain.h
+/Users/chuanmingxi/CLionProjects/LearnBlockChain/BlockChain/Blockchain.h
+
 /Users/chuanmingxi/CLionProjects/LearnBlockChain/BlockChain/Blockchain.h
 vector
 -
+assert.h
+-
 ../Block/Block.h
 /Users/chuanmingxi/CLionProjects/LearnBlockChain/Block/Block.h
+leveldb/db.h
+/Users/chuanmingxi/CLionProjects/LearnBlockChain/BlockChain/leveldb/db.h
+leveldb/write_batch.h
+/Users/chuanmingxi/CLionProjects/LearnBlockChain/BlockChain/leveldb/write_batch.h
 
 /Users/chuanmingxi/CLionProjects/LearnBlockChain/POW/ProofOfWork.h
 ../Utils/hex2bigint.h
@@ -79,16 +89,6 @@ sstream
 -
 vector
 -
-
-/Users/chuanmingxi/CLionProjects/LearnBlockChain/main.cpp
-iostream
--
-BlockChain/Blockchain.h
-/Users/chuanmingxi/CLionProjects/LearnBlockChain/BlockChain/Blockchain.h
-POW/ProofOfWork.h
-/Users/chuanmingxi/CLionProjects/LearnBlockChain/POW/ProofOfWork.h
-leveldb/db.h
-/Users/chuanmingxi/CLionProjects/LearnBlockChain/leveldb/db.h
 
 /usr/local/include/boost/archive/archive_exception.hpp
 exception
@@ -6675,4 +6675,12 @@ leveldb/export.h
 /usr/local/include/leveldb/leveldb/export.h
 leveldb/slice.h
 /usr/local/include/leveldb/leveldb/slice.h
+
+/usr/local/include/leveldb/write_batch.h
+string
+-
+leveldb/export.h
+/usr/local/include/leveldb/leveldb/export.h
+leveldb/status.h
+/usr/local/include/leveldb/leveldb/status.h
 

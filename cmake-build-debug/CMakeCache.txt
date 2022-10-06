@@ -284,6 +284,9 @@ boost_text_oarchive_DIR:PATH=boost_text_oarchive_DIR-NOTFOUND
 //The directory containing a CMake configuration file for boost_thread.
 boost_thread_DIR:PATH=/usr/local/lib/cmake/boost_thread-1.80.0
 
+//The directory containing a CMake configuration file for leveldb.
+leveldb_DIR:PATH=/usr/local/lib/cmake/leveldb
+
 
 ########################
 # INTERNAL cache entries

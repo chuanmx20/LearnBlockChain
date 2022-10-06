@@ -5,15 +5,7 @@
 #include "leveldb/db.h"
 
 int main() {
-    Blockchain chain;
-//    chain.AddBlock("Trans 1 BTC to CMX");
-//    std::cout << chain.GetEndHash();
-    Block block("nothing but just test", "");
-    std::ostringstream os;
-    boost::archive::binary_oarchive oa(os);
-    oa << block;
-    std::cout << os.str() << "\n";
-    auto des = Block::Deserialize(os.str());
-    std::cout << des.GetTime();
+    Blockchain chain("temp");
+    chain.AddBlock("nothing just to test leveldb");
     return 0;
 }

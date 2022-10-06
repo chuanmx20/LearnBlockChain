@@ -1241,6 +1241,13 @@ CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: /usr/local/include/b
 CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: /usr/local/include/boost/type_traits/remove_reference.hpp
 CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: /usr/local/include/boost/type_traits/type_with_alignment.hpp
 CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: /usr/local/include/boost/version.hpp
+CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: /usr/local/include/leveldb/db.h
+CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: /usr/local/include/leveldb/export.h
+CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: /usr/local/include/leveldb/iterator.h
+CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: /usr/local/include/leveldb/options.h
+CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: /usr/local/include/leveldb/slice.h
+CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: /usr/local/include/leveldb/status.h
+CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: /usr/local/include/leveldb/write_batch.h
 
 CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o: ../POW/ProofOfWork.cpp
 CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o: ../POW/ProofOfWork.h
@@ -1881,4 +1888,5 @@ CMakeFiles/LearnBlockChain.dir/main.cpp.o: /usr/local/include/leveldb/iterator.h
 CMakeFiles/LearnBlockChain.dir/main.cpp.o: /usr/local/include/leveldb/options.h
 CMakeFiles/LearnBlockChain.dir/main.cpp.o: /usr/local/include/leveldb/slice.h
 CMakeFiles/LearnBlockChain.dir/main.cpp.o: /usr/local/include/leveldb/status.h
+CMakeFiles/LearnBlockChain.dir/main.cpp.o: /usr/local/include/leveldb/write_batch.h
 

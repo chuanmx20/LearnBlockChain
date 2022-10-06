@@ -1242,6 +1242,13 @@ CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o
  /usr/local/include/boost/type_traits/remove_reference.hpp
  /usr/local/include/boost/type_traits/type_with_alignment.hpp
  /usr/local/include/boost/version.hpp
+ /usr/local/include/leveldb/db.h
+ /usr/local/include/leveldb/export.h
+ /usr/local/include/leveldb/iterator.h
+ /usr/local/include/leveldb/options.h
+ /usr/local/include/leveldb/slice.h
+ /usr/local/include/leveldb/status.h
+ /usr/local/include/leveldb/write_batch.h
 CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o
  /Users/chuanmingxi/CLionProjects/LearnBlockChain/POW/ProofOfWork.cpp
  /Users/chuanmingxi/CLionProjects/LearnBlockChain/POW/ProofOfWork.h
@@ -1882,3 +1889,4 @@ CMakeFiles/LearnBlockChain.dir/main.cpp.o
  /usr/local/include/leveldb/options.h
  /usr/local/include/leveldb/slice.h
  /usr/local/include/leveldb/status.h
+ /usr/local/include/leveldb/write_batch.h
