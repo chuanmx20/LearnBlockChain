@@ -15,7 +15,7 @@ include_directories(${Boost_INCLUDE_DIRS})
 link_directories(${Boost_LIBRARY_DIRS})
 
 include_directories(Utils)
-add_definitions(-DTARGET_BIT=6)
+add_definitions(-DTARGET_BIT=2)
 
 include_directories(/usr/local/include)
 

@@ -37,3 +37,19 @@ std::string Block::to_string() {
     oa << *this;
     return os.str();
 }
+
+template<class Archive>
+void Block::serialize(Archive &ar, const unsigned int &version) {
+    ar & timestamp;
+    ar & prevBlockHash;
+    ar & data;
+    ar & hash;
+}
+
+Block Block::Deserialize(std::string str) {
+    Block ret("", "");
+    std::istringstream is(str);
+    boost::archive::binary_iarchive ia(is);
+    ia >> ret;
+    return reinterpret_cast<Block &&>(ret);
+}

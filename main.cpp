@@ -12,6 +12,8 @@ int main() {
     std::ostringstream os;
     boost::archive::binary_oarchive oa(os);
     oa << block;
-    std::cout << " " << os.str();
+    std::cout << os.str() << "\n";
+    auto des = Block::Deserialize(os.str());
+    std::cout << des.GetTime();
     return 0;
 }

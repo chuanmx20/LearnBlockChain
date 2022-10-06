@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -std=gnu++14
 
-CXX_DEFINES = -DBOOST_SERIALIZATION_DYN_LINK -DBOOST_SERIALIZATION_NO_LIB -DTARGET_BIT=6
+CXX_DEFINES = -DBOOST_SERIALIZATION_DYN_LINK -DBOOST_SERIALIZATION_NO_LIB -DTARGET_BIT=2
 
 CXX_INCLUDES = -I/Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils -isystem /usr/local/include 
 
