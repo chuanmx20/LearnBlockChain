@@ -94,12 +94,12 @@ clean: CMakeFiles/LearnBlockChain.dir/clean
 CMakeFiles/LearnBlockChain.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnBlockChain.dir/build.make CMakeFiles/LearnBlockChain.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnBlockChain.dir/build.make CMakeFiles/LearnBlockChain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chuanmingxi/CLionProjects/LearnBlockChain/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target LearnBlockChain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chuanmingxi/CLionProjects/LearnBlockChain/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target LearnBlockChain"
 .PHONY : CMakeFiles/LearnBlockChain.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LearnBlockChain.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chuanmingxi/CLionProjects/LearnBlockChain/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chuanmingxi/CLionProjects/LearnBlockChain/cmake-build-debug/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LearnBlockChain.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chuanmingxi/CLionProjects/LearnBlockChain/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/LearnBlockChain.dir/rule

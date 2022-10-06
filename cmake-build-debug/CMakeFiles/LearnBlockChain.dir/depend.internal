@@ -5,13 +5,44 @@ CMakeFiles/LearnBlockChain.dir/Block/Block.cpp.o
  ../Utils/picosha2.h
  /Users/chuanmingxi/CLionProjects/LearnBlockChain/Block/Block.cpp
  /Users/chuanmingxi/CLionProjects/LearnBlockChain/Block/Block.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/POW/ProofOfWork.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/BigInt.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/hex2bigint.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/picosha2.h
 CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o
  ../Utils/picosha2.h
  /Users/chuanmingxi/CLionProjects/LearnBlockChain/Block/Block.h
  /Users/chuanmingxi/CLionProjects/LearnBlockChain/BlockChain/Blockchain.cpp
  /Users/chuanmingxi/CLionProjects/LearnBlockChain/BlockChain/Blockchain.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/POW/ProofOfWork.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/BigInt.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/hex2bigint.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/picosha2.h
+CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/POW/ProofOfWork.cpp
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/POW/ProofOfWork.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/BigInt.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/hex2bigint.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/picosha2.h
+CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.o
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/BigInt.cpp
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/BigInt.h
+CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.o
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/BigInt.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/hex2bigint.cpp
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/hex2bigint.h
 CMakeFiles/LearnBlockChain.dir/main.cpp.o
  ../Utils/picosha2.h
  /Users/chuanmingxi/CLionProjects/LearnBlockChain/Block/Block.h
- /Users/chuanmingxi/CLionProjects/LearnBlockChain/BlockChain/blockchain.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/BlockChain/Blockchain.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/POW/ProofOfWork.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/BigInt.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/hex2bigint.h
+ /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/picosha2.h
  /Users/chuanmingxi/CLionProjects/LearnBlockChain/main.cpp
+ /usr/local/include/leveldb/db.h
+ /usr/local/include/leveldb/export.h
+ /usr/local/include/leveldb/iterator.h
+ /usr/local/include/leveldb/options.h
+ /usr/local/include/leveldb/slice.h
+ /usr/local/include/leveldb/status.h

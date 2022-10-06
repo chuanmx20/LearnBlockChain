@@ -197,6 +197,87 @@ BlockChain/Blockchain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnBlockChain.dir/build.make CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.s
 .PHONY : BlockChain/Blockchain.cpp.s
 
+POW/ProofOfWork.o: POW/ProofOfWork.cpp.o
+
+.PHONY : POW/ProofOfWork.o
+
+# target to build an object file
+POW/ProofOfWork.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnBlockChain.dir/build.make CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o
+.PHONY : POW/ProofOfWork.cpp.o
+
+POW/ProofOfWork.i: POW/ProofOfWork.cpp.i
+
+.PHONY : POW/ProofOfWork.i
+
+# target to preprocess a source file
+POW/ProofOfWork.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnBlockChain.dir/build.make CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.i
+.PHONY : POW/ProofOfWork.cpp.i
+
+POW/ProofOfWork.s: POW/ProofOfWork.cpp.s
+
+.PHONY : POW/ProofOfWork.s
+
+# target to generate assembly for a file
+POW/ProofOfWork.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnBlockChain.dir/build.make CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.s
+.PHONY : POW/ProofOfWork.cpp.s
+
+Utils/BigInt.o: Utils/BigInt.cpp.o
+
+.PHONY : Utils/BigInt.o
+
+# target to build an object file
+Utils/BigInt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnBlockChain.dir/build.make CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.o
+.PHONY : Utils/BigInt.cpp.o
+
+Utils/BigInt.i: Utils/BigInt.cpp.i
+
+.PHONY : Utils/BigInt.i
+
+# target to preprocess a source file
+Utils/BigInt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnBlockChain.dir/build.make CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.i
+.PHONY : Utils/BigInt.cpp.i
+
+Utils/BigInt.s: Utils/BigInt.cpp.s
+
+.PHONY : Utils/BigInt.s
+
+# target to generate assembly for a file
+Utils/BigInt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnBlockChain.dir/build.make CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.s
+.PHONY : Utils/BigInt.cpp.s
+
+Utils/hex2bigint.o: Utils/hex2bigint.cpp.o
+
+.PHONY : Utils/hex2bigint.o
+
+# target to build an object file
+Utils/hex2bigint.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnBlockChain.dir/build.make CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.o
+.PHONY : Utils/hex2bigint.cpp.o
+
+Utils/hex2bigint.i: Utils/hex2bigint.cpp.i
+
+.PHONY : Utils/hex2bigint.i
+
+# target to preprocess a source file
+Utils/hex2bigint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnBlockChain.dir/build.make CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.i
+.PHONY : Utils/hex2bigint.cpp.i
+
+Utils/hex2bigint.s: Utils/hex2bigint.cpp.s
+
+.PHONY : Utils/hex2bigint.s
+
+# target to generate assembly for a file
+Utils/hex2bigint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnBlockChain.dir/build.make CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.s
+.PHONY : Utils/hex2bigint.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -239,6 +320,15 @@ help:
 	@echo "... BlockChain/Blockchain.o"
 	@echo "... BlockChain/Blockchain.i"
 	@echo "... BlockChain/Blockchain.s"
+	@echo "... POW/ProofOfWork.o"
+	@echo "... POW/ProofOfWork.i"
+	@echo "... POW/ProofOfWork.s"
+	@echo "... Utils/BigInt.o"
+	@echo "... Utils/BigInt.i"
+	@echo "... Utils/BigInt.s"
+	@echo "... Utils/hex2bigint.o"
+	@echo "... Utils/hex2bigint.i"
+	@echo "... Utils/hex2bigint.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

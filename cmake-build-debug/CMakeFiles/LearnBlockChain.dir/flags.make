@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -std=gnu++14
 
-CXX_DEFINES = 
+CXX_DEFINES = -DTARGET_BIT=6
 
-CXX_INCLUDES = -I/Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils 
+CXX_INCLUDES = -I/Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils -I/usr/local/include 
 

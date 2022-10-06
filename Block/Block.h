@@ -12,11 +12,13 @@
 #include <cstdlib>
 
 #include "picosha2.h"
+#include "../POW/ProofOfWork.h"
 
 class Block {
     int64_t timestamp;
     std::string data;
     std::string prevBlockHash;
+    int nonce;
     std::string hash;
 public:
     Block() = delete;

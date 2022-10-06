@@ -17,3 +17,7 @@ void Blockchain::AddBlock(const std::string& data) {
 std::vector<Block> Blockchain::GetBlocks() {
     return std::vector<Block>(blocks);
 }
+
+std::string Blockchain::GetEndHash() {
+    return blocks[blocks.size() - 1].GetHash();
+}

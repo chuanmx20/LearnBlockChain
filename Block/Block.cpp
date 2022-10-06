@@ -8,8 +8,11 @@ Block::Block(std::string _data, std::string _prevBlockHash) {
     timestamp = time(NULL);
     data = _data;
     prevBlockHash = _prevBlockHash;
-    std::string header = _prevBlockHash + _data + std::to_string(timestamp);
-    picosha2::hash256_hex_string(header, hash);
+
+    ProofOfWork pow(timestamp, prevBlockHash, data);
+    auto result = pow.Run();
+    nonce = result.first;
+    hash = result.second;
 }
 
 std::string Block::GetHash() {

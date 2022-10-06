@@ -116,11 +116,53 @@ CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chuanmingxi/CLionProjects/LearnBlockChain/BlockChain/Blockchain.cpp -o CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.s
 
+CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o: CMakeFiles/LearnBlockChain.dir/flags.make
+CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o: ../POW/ProofOfWork.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chuanmingxi/CLionProjects/LearnBlockChain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o -c /Users/chuanmingxi/CLionProjects/LearnBlockChain/POW/ProofOfWork.cpp
+
+CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chuanmingxi/CLionProjects/LearnBlockChain/POW/ProofOfWork.cpp > CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.i
+
+CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chuanmingxi/CLionProjects/LearnBlockChain/POW/ProofOfWork.cpp -o CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.s
+
+CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.o: CMakeFiles/LearnBlockChain.dir/flags.make
+CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.o: ../Utils/BigInt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chuanmingxi/CLionProjects/LearnBlockChain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.o -c /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/BigInt.cpp
+
+CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/BigInt.cpp > CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.i
+
+CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/BigInt.cpp -o CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.s
+
+CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.o: CMakeFiles/LearnBlockChain.dir/flags.make
+CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.o: ../Utils/hex2bigint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chuanmingxi/CLionProjects/LearnBlockChain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.o -c /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/hex2bigint.cpp
+
+CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/hex2bigint.cpp > CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.i
+
+CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chuanmingxi/CLionProjects/LearnBlockChain/Utils/hex2bigint.cpp -o CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.s
+
 # Object files for target LearnBlockChain
 LearnBlockChain_OBJECTS = \
 "CMakeFiles/LearnBlockChain.dir/main.cpp.o" \
 "CMakeFiles/LearnBlockChain.dir/Block/Block.cpp.o" \
-"CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o"
+"CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o" \
+"CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o" \
+"CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.o" \
+"CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.o"
 
 # External object files for target LearnBlockChain
 LearnBlockChain_EXTERNAL_OBJECTS =
@@ -128,9 +170,12 @@ LearnBlockChain_EXTERNAL_OBJECTS =
 LearnBlockChain: CMakeFiles/LearnBlockChain.dir/main.cpp.o
 LearnBlockChain: CMakeFiles/LearnBlockChain.dir/Block/Block.cpp.o
 LearnBlockChain: CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o
+LearnBlockChain: CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o
+LearnBlockChain: CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.o
+LearnBlockChain: CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.o
 LearnBlockChain: CMakeFiles/LearnBlockChain.dir/build.make
 LearnBlockChain: CMakeFiles/LearnBlockChain.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chuanmingxi/CLionProjects/LearnBlockChain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LearnBlockChain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chuanmingxi/CLionProjects/LearnBlockChain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable LearnBlockChain"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LearnBlockChain.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

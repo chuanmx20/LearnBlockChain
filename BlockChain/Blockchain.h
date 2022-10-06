@@ -15,7 +15,6 @@ public:
     Blockchain();
     std::vector<Block> GetBlocks();
     void AddBlock(const std::string& data);
+    std::string GetEndHash();
 };
-
-
 #endif //LEARNBLOCKCHAIN_BLOCKCHAIN_H

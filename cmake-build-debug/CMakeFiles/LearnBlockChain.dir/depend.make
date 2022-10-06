@@ -4,14 +4,45 @@
 CMakeFiles/LearnBlockChain.dir/Block/Block.cpp.o: ../Utils/picosha2.h
 CMakeFiles/LearnBlockChain.dir/Block/Block.cpp.o: ../Block/Block.cpp
 CMakeFiles/LearnBlockChain.dir/Block/Block.cpp.o: ../Block/Block.h
+CMakeFiles/LearnBlockChain.dir/Block/Block.cpp.o: ../POW/ProofOfWork.h
+CMakeFiles/LearnBlockChain.dir/Block/Block.cpp.o: ../Utils/BigInt.h
+CMakeFiles/LearnBlockChain.dir/Block/Block.cpp.o: ../Utils/hex2bigint.h
+CMakeFiles/LearnBlockChain.dir/Block/Block.cpp.o: ../Utils/picosha2.h
 
 CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: ../Utils/picosha2.h
 CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: ../Block/Block.h
 CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: ../BlockChain/Blockchain.cpp
 CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: ../BlockChain/Blockchain.h
+CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: ../POW/ProofOfWork.h
+CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: ../Utils/BigInt.h
+CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: ../Utils/hex2bigint.h
+CMakeFiles/LearnBlockChain.dir/BlockChain/Blockchain.cpp.o: ../Utils/picosha2.h
+
+CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o: ../POW/ProofOfWork.cpp
+CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o: ../POW/ProofOfWork.h
+CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o: ../Utils/BigInt.h
+CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o: ../Utils/hex2bigint.h
+CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o: ../Utils/picosha2.h
+
+CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.o: ../Utils/BigInt.cpp
+CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.o: ../Utils/BigInt.h
+
+CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.o: ../Utils/BigInt.h
+CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.o: ../Utils/hex2bigint.cpp
+CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.o: ../Utils/hex2bigint.h
 
 CMakeFiles/LearnBlockChain.dir/main.cpp.o: ../Utils/picosha2.h
 CMakeFiles/LearnBlockChain.dir/main.cpp.o: ../Block/Block.h
-CMakeFiles/LearnBlockChain.dir/main.cpp.o: ../BlockChain/blockchain.h
+CMakeFiles/LearnBlockChain.dir/main.cpp.o: ../BlockChain/Blockchain.h
+CMakeFiles/LearnBlockChain.dir/main.cpp.o: ../POW/ProofOfWork.h
+CMakeFiles/LearnBlockChain.dir/main.cpp.o: ../Utils/BigInt.h
+CMakeFiles/LearnBlockChain.dir/main.cpp.o: ../Utils/hex2bigint.h
+CMakeFiles/LearnBlockChain.dir/main.cpp.o: ../Utils/picosha2.h
 CMakeFiles/LearnBlockChain.dir/main.cpp.o: ../main.cpp
+CMakeFiles/LearnBlockChain.dir/main.cpp.o: /usr/local/include/leveldb/db.h
+CMakeFiles/LearnBlockChain.dir/main.cpp.o: /usr/local/include/leveldb/export.h
+CMakeFiles/LearnBlockChain.dir/main.cpp.o: /usr/local/include/leveldb/iterator.h
+CMakeFiles/LearnBlockChain.dir/main.cpp.o: /usr/local/include/leveldb/options.h
+CMakeFiles/LearnBlockChain.dir/main.cpp.o: /usr/local/include/leveldb/slice.h
+CMakeFiles/LearnBlockChain.dir/main.cpp.o: /usr/local/include/leveldb/status.h
 
