@@ -9,7 +9,7 @@ void Blockchain::AddBlock(const std::string& data) {
     blocks.emplace_back(newBlock);
     leveldb::DB* db;
     leveldb::Options options;
-    options.create_if_missing = true;
+//    options.create_if_missing = true;
     leveldb::Status status = leveldb::DB::Open(options, DBFileName, &db);
     assert(status.ok());
 
@@ -22,7 +22,7 @@ void Blockchain::AddBlock(const std::string& data) {
 
     /// store [hash :  block_serial] in database when new block created
     if (status.ok())
-        leveldb::Status s = db->Write(leveldb::WriteOptions(), &batch);
+        status = db->Write(leveldb::WriteOptions(), &batch);
     delete db;
 }
 
@@ -42,6 +42,7 @@ Blockchain::Blockchain(const std::string & _dbFileName) {
     leveldb::Status status = leveldb::DB::Open(options, _dbFileName, &db);
 
     leveldb::Iterator* it = db->NewIterator(leveldb::ReadOptions());
+    std::cout << it->Valid() << std::endl;
     if (it->Valid()) {
         /// current database might contains blocks
         for (;it->Valid();it->Next()) {
