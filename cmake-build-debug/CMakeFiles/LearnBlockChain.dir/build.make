@@ -174,6 +174,7 @@ LearnBlockChain: CMakeFiles/LearnBlockChain.dir/POW/ProofOfWork.cpp.o
 LearnBlockChain: CMakeFiles/LearnBlockChain.dir/Utils/BigInt.cpp.o
 LearnBlockChain: CMakeFiles/LearnBlockChain.dir/Utils/hex2bigint.cpp.o
 LearnBlockChain: CMakeFiles/LearnBlockChain.dir/build.make
+LearnBlockChain: /usr/local/lib/libboost_serialization-mt.dylib
 LearnBlockChain: CMakeFiles/LearnBlockChain.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chuanmingxi/CLionProjects/LearnBlockChain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable LearnBlockChain"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LearnBlockChain.dir/link.txt --verbose=$(VERBOSE)

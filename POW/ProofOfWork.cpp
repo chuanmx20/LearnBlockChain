@@ -16,8 +16,8 @@ ProofOfWork::ProofOfWork(int _timestamp, std::string _prevHash, std::string _dat
 std::string ProofOfWork::PrepareData(unsigned int nonce) {
     char nonceStr[8] = {0};
     sprintf(nonceStr, "%X", nonce);
-    std::string data = prevHash + data + std::to_string(timestamp) + std::string(nonceStr);
-    return data;
+    std::string ret = prevHash + data + std::to_string(timestamp) + std::string(nonceStr);
+    return ret;
 }
 
 std::pair<int, std::string> ProofOfWork::Run() {

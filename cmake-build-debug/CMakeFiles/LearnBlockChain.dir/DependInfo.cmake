@@ -15,6 +15,8 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BOOST_SERIALIZATION_DYN_LINK"
+  "BOOST_SERIALIZATION_NO_LIB"
   "TARGET_BIT=6"
   )
 

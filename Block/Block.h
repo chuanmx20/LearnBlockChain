@@ -11,6 +11,10 @@
 #include <ctime>
 #include <cstdlib>
 
+#include <boost/archive/text_oarchive.hpp>
+#include <boost/archive/binary_oarchive.hpp>
+#include <boost/serialization/string.hpp>
+
 #include "picosha2.h"
 #include "../POW/ProofOfWork.h"
 
@@ -20,6 +24,15 @@ class Block {
     std::string prevBlockHash;
     int nonce;
     std::string hash;
+
+    friend class boost::serialization::access;
+    template<class Archive>
+    void serialize(Archive& ar, const unsigned int& version) {
+        ar & std::to_string(timestamp);
+        ar & prevBlockHash;
+        ar & data;
+        ar & hash;
+    }
 public:
     Block() = delete;
     Block(std::string _data, std::string _prevBlockHash);
@@ -27,6 +40,7 @@ public:
     std::string GetPrevBlock();
     std::string GetData();
     int64_t GetTime();
+    std::string to_string();
 };
 
 

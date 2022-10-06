@@ -30,3 +30,10 @@ std::string Block::GetData() {
 int64_t Block::GetTime() {
     return timestamp;
 }
+
+std::string Block::to_string() {
+    std::ostringstream os;
+    boost::archive::binary_oarchive oa(os);
+    oa << *this;
+    return os.str();
+}
